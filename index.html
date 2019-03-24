@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fun</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Calculator -->
+    <div class="calc-wrap">
+        <input type="text" id="calc__input" class="calc__input">
+
+        <div class="calc__num-wrap">
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="105" data-keyalt="57">9</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="104" data-keyalt="56">8</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="103" data-keyalt="55">7</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="102" data-keyalt="54">6</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="101" data-keyalt="53">5</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="100" data-keyalt="52">4</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="99" data-keyalt="51">3</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="98" data-keyalt="50">2</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="97" data-keyalt="49">1</button>
+            <button id="calc__num-btn" class="calc__btn calc__btn_number" data-key="96" data-keyalt="48">0</button>
+            
+            <button id="calc__btn_add" class="calc__btn calc__btn_operator" data-key="107">+</button>
+            <button id="calc__btn_substract" class="calc__btn calc__btn_operator" data-key="109">-</button>
+            <button id="calc__btn_multiply" class="calc__btn calc__btn_operator" data-key="106">*</button>
+            <button id="calc__btn_divide" class="calc__btn calc__btn_operator" data-key="111">/</button>
+
+            <input type="submit" id="calc__btn_equals" value="=" class="calc__btn calc__btn_result" data-key="13">
+            <input type="reset" id="calc__btn_reset" value="C" class="calc__btn calc__btn_clear" data-key="46">
+            <input type="button" id="calc__btn_backspace" value="X" class="calc__btn calc__btn_backspace" data-key="8">
+        </div>
+        
+        <div class="calc__op-wrap">
+            
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
